@@ -23,9 +23,12 @@ namespace MainApplication
     class Kpss
     {
         public string Stalin { get { return "The Best"; } }
+        public int Calc { get { return 2 + 2; } }
         public Kpss()
         {
             Console.WriteLine(this.Stalin);
         }
+        
+
     }
 }
