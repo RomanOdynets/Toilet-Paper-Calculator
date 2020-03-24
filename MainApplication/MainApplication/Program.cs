@@ -14,4 +14,13 @@ namespace MainApplication
             Console.ReadLine();
         }
     }
+
+    class Kpss
+    {
+        public string Stalin { get { return "The Best"; } }
+        public Kpss()
+        {
+            Console.WriteLine(this.Stalin);
+        }
+    }
 }
