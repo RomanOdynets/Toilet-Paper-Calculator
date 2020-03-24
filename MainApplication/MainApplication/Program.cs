@@ -10,7 +10,12 @@ namespace MainApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            Console.WriteLine("Enter a");
+            int a = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Enter b");
+            int b = Int32.Parse(Console.ReadLine());
+            Support s = new Support(a, b);
+            Console.WriteLine("Return: " + s.Ret());
             Console.ReadLine();
         }
     }
