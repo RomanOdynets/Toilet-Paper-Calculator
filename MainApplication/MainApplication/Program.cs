@@ -19,7 +19,7 @@ namespace MainApplication
             Console.ReadLine();
         }
     }
-    // second
+    // hello
     class Kpss
     {
         public string Stalin { get { return "The Best"; } }
